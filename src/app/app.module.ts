@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration(withEventReplay())
+    // provideClientHydration(withEventReplay())
   ],
   bootstrap: [AppComponent]
 })
