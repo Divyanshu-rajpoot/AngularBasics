@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'HelloWold';
+  title = 'HelloWorld';
+
+  ngOnInit() : void {
+    this.title = "Hello From BridgeLabz."
+  }
 }
